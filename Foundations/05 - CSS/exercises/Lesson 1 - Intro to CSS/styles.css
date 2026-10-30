@@ -1,0 +1,48 @@
+/* Selectors */
+
+/* Universal selector */
+* {
+    color : rgb(26, 0, 88);
+}
+
+div {
+    color : Grey;
+}
+
+/* Class selectors */
+
+.alert-message {
+    color : red;
+}
+
+/* ID selectors */
+#title {
+    color: black;
+    background-color:antiquewhite;
+}
+
+/* The grouping selector */
+.read,
+.unread {
+    color: black;
+    background-color: antiquewhite;
+}
+.read {
+    /*  */
+}
+.unread {
+    /*  */
+}
+/* Chaining Selector */
+.subsection.header {
+  color: red;
+}
+/* chain a class and an ID */
+.subsection#preview {
+    color:brown;
+}
+
+/* Descendant combinator */
+.parent .child {
+  color: red;
+}
