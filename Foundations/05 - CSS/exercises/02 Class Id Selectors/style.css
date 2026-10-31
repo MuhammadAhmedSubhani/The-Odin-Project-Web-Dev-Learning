@@ -1,0 +1,10 @@
+.odd {
+    font-family: 'DejaVu Sans', sans-serif;
+    color: black;
+    background-color: lightcoral;
+}
+
+#first {
+    font-size: 36px;
+    color: blue;
+}
